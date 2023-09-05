@@ -9,7 +9,7 @@
 ?>
 <div id="ajax-posts" class="row">
 	<?php
-	$postsPerPage = 3;
+	$postsPerPage = 1;
 	$args = array(
 		'post_type' => 'post',
 		'posts_per_page' => $postsPerPage,

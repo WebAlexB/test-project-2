@@ -64,7 +64,7 @@ add_action( 'wp_enqueue_scripts', 'add_scripts' );
 if ( ! function_exists( 'load_more' ) ) {
 	function load_more() {
 
-		$posts_per_page = ( isset( $_POST["posts_per_page"] ) ) ? $_POST["posts_per_page"] : 3;
+		$posts_per_page = ( isset( $_POST["posts_per_page"] ) ) ? $_POST["posts_per_page"] : 1;
 		$page           = ( isset( $_POST['pageNumber'] ) ) ? $_POST['pageNumber'] : 0;
 		$args = array(
 			'suppress_filters' => true,

@@ -1,5 +1,5 @@
 jQuery(document).ready(function ($) {
-    let posts_per_page = 3;
+    let posts_per_page = 1;
     let pageNumber = 1;
 
 
